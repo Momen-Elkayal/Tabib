@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Tabib/static/css/main.41110276.chunk.css",
+    "main.js": "/Tabib/static/js/main.57ecb1eb.chunk.js",
+    "main.js.map": "/Tabib/static/js/main.57ecb1eb.chunk.js.map",
+    "runtime-main.js": "/Tabib/static/js/runtime-main.b77d8c0c.js",
+    "runtime-main.js.map": "/Tabib/static/js/runtime-main.b77d8c0c.js.map",
+    "static/js/2.b6720439.chunk.js": "/Tabib/static/js/2.b6720439.chunk.js",
+    "static/js/2.b6720439.chunk.js.map": "/Tabib/static/js/2.b6720439.chunk.js.map",
+    "static/js/3.f47811d8.chunk.js": "/Tabib/static/js/3.f47811d8.chunk.js",
+    "static/js/3.f47811d8.chunk.js.map": "/Tabib/static/js/3.f47811d8.chunk.js.map",
+    "index.html": "/Tabib/index.html",
+    "static/css/main.41110276.chunk.css.map": "/Tabib/static/css/main.41110276.chunk.css.map",
+    "static/js/2.b6720439.chunk.js.LICENSE.txt": "/Tabib/static/js/2.b6720439.chunk.js.LICENSE.txt",
+    "static/media/Home1.css": "/Tabib/static/media/banner_3.9db3db46.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b77d8c0c.js",
+    "static/js/2.b6720439.chunk.js",
+    "static/css/main.41110276.chunk.css",
+    "static/js/main.57ecb1eb.chunk.js"
+  ]
+}
