@@ -1,0 +1,53 @@
+.Clinic .boxses .box {
+  width: 30%;
+}
+@media (max-width: 1010px) {
+  .Clinic .boxses .box {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 770px) {
+  .Clinic .boxses .box {
+    width: 100%;
+  }
+}
+
+.Clinic .boxses .box .img {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.Clinic .boxses .box .img img {
+  width: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.Clinic .boxses .box:hover .img img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.Clinic .boxses .box:hover .img {
+  background-color: #fff;
+  opacity: 0.4;
+}
+.Clinic .boxses .box .info {
+  padding-bottom: 15px !important;
+}
+.Clinic .boxses .box .info h5 {
+  font-size: 17px;
+  margin: 0;
+}
+.Clinic .boxses .box .info .map {
+  padding-top: 15px;
+}
+.Clinic .boxses .box i {
+  margin-right: 10px;
+}
+.Clinic .boxses .box .close-info > div {
+  cursor: pointer;
+}

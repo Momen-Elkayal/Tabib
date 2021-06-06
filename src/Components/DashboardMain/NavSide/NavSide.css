@@ -1,0 +1,42 @@
+.NavSide {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: calc(100vh);
+  color: #ffffff;
+  overflow-y: auto;
+}
+@media (max-width: 1010px) {
+  .NavSide {
+    display: none;
+  }
+}
+.NavSide ul li {
+  width: 250px;
+}
+.nav-title {
+  padding: 10px 20px 10px 20px;
+  display: block;
+  text-transform: uppercase;
+  color: #5cb0f7;
+  font-size: 14px;
+}
+
+.navLinks {
+  color: #cfe6ff;
+  padding: 10px 13px 10px 13px;
+  display: block;
+  font-size: 14px;
+  border-bottom: 1px solid #0b6ec1;
+  border-left: 4px solid #0864b2;
+}
+.navLinks i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+.NavSide .navLinks:hover,
+.NavSide .links .active {
+  background-color: #07508f;
+  border-left: 4px solid #007cff;
+  color: #cfe6ff;
+}

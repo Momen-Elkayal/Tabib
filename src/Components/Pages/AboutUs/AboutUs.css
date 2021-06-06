@@ -1,0 +1,261 @@
+/* About Items */
+.AboutItems .items {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.AboutItems .items .item {
+  width: 23%;
+  color: #fff;
+  border-right: #fff 1px solid;
+}
+.AboutItems .items .item:last-of-type {
+  width: 25%;
+  border-right: none;
+}
+@media (max-width: 1010px) {
+  .AboutItems .items .item,
+  .AboutItems .items .item:last-of-type {
+    width: 48%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  .AboutItems .items .item:nth-of-type(2),
+  .AboutItems .items .item:nth-of-type(4) {
+    border-right: none;
+    padding-left: 20px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 770px) {
+  .AboutItems .items .item,
+  .AboutItems .items .item:last-of-type {
+    width: 100%;
+    border-right: none;
+    border-bottom: #fff 1px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 0px;
+  }
+  .AboutItems .items .item:nth-of-type(2),
+  .AboutItems .items .item:nth-of-type(4) {
+    border-right: none;
+    padding-left: 0;
+  }
+}
+.AboutItems .items .item h2 {
+  opacity: 0.7;
+  font-size: 23px;
+  transition: ease-in-out 0.3s;
+}
+.AboutItems .items .item p {
+  font-size: 14px;
+  opacity: 0.5;
+  transition: ease-in-out 0.3s;
+}
+
+.AboutItems .items .item:hover h2 {
+  opacity: 1 !important;
+  transform: translateY(-15px);
+}
+.AboutItems .items .item:hover p {
+  opacity: 0.7 !important;
+  transform: translateY(-15px);
+}
+
+/* Clients */
+.Clients {
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.Clients .ClientsTitle {
+  width: 60%;
+  margin: auto;
+}
+.Clients .ClientsTitle h2 {
+  font-size: 23px;
+  line-height: 28px;
+  color: #616161;
+}
+.Clients .ClientsTitle p {
+  font-size: 15px;
+  line-height: 27px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 0.6 !important;
+  color: #616161;
+}
+
+.Clients .ClintImg {
+  margin-top: 80px;
+}
+.Clients .ClintImg .img {
+  width: 25%;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 1px solid #d6d4d4;
+  border-right: 1px solid #d6d4d4ee;
+}
+.Clients .ClintImg .img:last-of-type {
+  border-right: none;
+}
+
+.Clients .ClintImg .img img {
+  cursor: pointer;
+}
+
+@media (max-width: 770px) {
+  .Clients .ClientsTitle {
+    width: 90%;
+    margin: auto;
+  }
+  .Clients .ClintImg .img {
+    width: 50%;
+    border-bottom: none;
+    border-right: none;
+  }
+  .Clients .ClintImg .img:nth-of-type(1),
+  .Clients .ClintImg .img:nth-of-type(3) {
+    border-right: 1px solid #d6d4d4ee;
+  }
+  .Clients .ClintImg .img:nth-of-type(1),
+  .Clients .ClintImg .img:nth-of-type(2) {
+    border-bottom: 1px solid #d6d4d4ee;
+  }
+}
+@media (max-width: 350px) {
+  .Clients .ClintImg .img {
+    width: 100%;
+    border-bottom: 1px solid #d6d4d4ee;
+    border-right: none;
+  }
+  .Clients .ClintImg .img:nth-of-type(1),
+  .Clients .ClintImg .img:nth-of-type(3) {
+    border-right: none;
+  }
+}
+
+/* Get In Touch */
+
+.Touch .TouchTitle {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 60px;
+}
+@media (max-width: 1010px) {
+  .Touch .TouchTitle {
+    width: 90%;
+  }
+}
+
+.Touch .TouchTitle h2 {
+  font-size: 25px;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 0;
+}
+.Touch .TouchTitle p {
+  font-size: 15px;
+  line-height: 27px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  opacity: 0.6 !important;
+  color: #fff;
+}
+
+/* Touch Form & Addrees */
+
+.Touch .TouchForm {
+  width: 48%;
+}
+@media (max-width: 1010px) {
+  .Touch .TouchForm {
+    width: 100%;
+  }
+}
+.Touch .TouchForm input,
+.Touch .TouchForm .Message textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  border: solid rgba(255, 255, 255, 0.8) 2px;
+  background-color: rgba(255, 255, 255, 0.01) !important;
+  color: #fff;
+  opacity: 0.6;
+  padding: 8px 10px;
+}
+.Touch .TouchForm input::placeholder {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+}
+.Touch .TouchForm label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+.Touch .TouchForm .Name,
+.Touch .TouchForm .Email {
+  width: 48%;
+}
+@media (max-width: 770px) {
+  .Touch .TouchForm .Name,
+  .Touch .TouchForm .Email {
+    width: 100%;
+  }
+}
+.Touch .TouchForm .Address,
+.Touch .TouchForm .Message {
+  width: 100%;
+}
+
+.Touch .TouchForm a {
+  display: block;
+  color: #fff;
+  width: 100%;
+  border: 2px solid #fff;
+  text-align: center;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+/* Touch Addrees */
+.Touch .TouchAddrees {
+  width: 49%;
+  padding-top: 5px;
+}
+@media (max-width: 1010px) {
+  .Touch .TouchAddrees {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+.Touch .TouchAddrees p {
+  color: #fff;
+  font-size: 14px;
+}
+.Touch .TouchAddrees ul {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.Touch .TouchAddrees ul li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+.Touch .TouchAddrees ul li i {
+  margin-right: 10px;
+}
+
+@media (max-width: 1010px) {
+  .Touch .TouchAddrees ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

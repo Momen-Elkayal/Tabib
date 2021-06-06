@@ -1,0 +1,37 @@
+.blog .news .news-box {
+  width: 48%;
+}
+@media (max-width: 1010px) {
+  .blog .news .news-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.blog .news .news-box img {
+  width: 40%;
+}
+.blog .news .news-box .news-right {
+  width: 60%;
+  padding: 25px;
+}
+
+.blog .news .news-box .news-right h3 {
+  font-size: 16px;
+  line-height: 23px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.blog .news .news-box .news-right h3:hover {
+  opacity: 1;
+}
+.blog .news .news-box i {
+  margin-right: 5px;
+}
+@media (max-width: 500px) {
+  .blog .news .news-box img {
+    width: 100%;
+  }
+  .blog .news .news-box .news-right {
+    width: 100%;
+  }
+}

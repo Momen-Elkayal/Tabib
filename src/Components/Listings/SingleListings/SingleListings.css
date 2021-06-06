@@ -1,0 +1,200 @@
+/* Left Box */
+
+.SingleListings .leftBox {
+  width: 68%;
+  margin-bottom: 80px;
+}
+@media (max-width: 1010px) {
+  .SingleListings .leftBox {
+    width: 100%;
+  }
+}
+.SingleListings .leftBox .ClinicImg img {
+  width: 100%;
+}
+
+.SingleListings .leftBox .ClinicImg .rate-left {
+  width: 48%;
+}
+.SingleListings .leftBox .ClinicImg .rate-left .rate ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.SingleListings .leftBox .ClinicImg .rate-left .map i {
+  margin-right: 10px;
+}
+
+.SingleListings .leftBox .ClinicImg .save-right {
+  width: 50%;
+}
+.SingleListings .leftBox .ClinicImg .save-right i {
+  margin-right: 10px;
+}
+@media (max-width: 1010px) {
+  .rate-save {
+    padding: 30px 10px !important;
+  }
+}
+.SingleListings .leftBox .AboutClinic {
+  background-color: #fff;
+  margin-top: 50px;
+}
+.SingleListings .leftBox hr {
+  margin: 16px 0;
+}
+.SingleListings .leftBox .AboutClinic p {
+  margin-top: 0;
+  font-size: 13px;
+  line-height: 27px;
+}
+
+.SingleListings .leftBox .ClinicLocation {
+  background-color: #fff;
+  margin-top: 50px;
+}
+.SingleListings .leftBox .ClinicLocation .Location {
+  background-color: #e5e3df;
+  width: 100%;
+  height: 200px;
+}
+
+.SingleListings .leftBox .Review {
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.Review-box .img {
+  width: 70px;
+  border-radius: 50%;
+}
+.Review-box .img img {
+  border-radius: 50%;
+}
+
+.Review-box .text {
+  width: calc(100% - 90px);
+}
+
+.Review-box .text .star h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.Review-box .text .star ul {
+  margin: 0;
+}
+.Review-box .text .date {
+  font-size: 11px;
+}
+.Review-box .text p {
+  font-size: 13px;
+}
+
+.SingleListings .leftBox .AddReview {
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+/* Start Form */
+
+.SingleListings form .name {
+  width: 49%;
+}
+.SingleListings form label {
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.SingleListings form input,
+.SingleListings form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.SingleListings form .email {
+  width: 49%;
+}
+.SingleListings form .comment {
+  margin-top: 20px;
+}
+.SingleListings form button {
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (max-width: 770px) {
+  .SingleListings form .email,
+  .SingleListings form .name {
+    width: 100%;
+  }
+  .SingleListings form .email {
+    margin-top: 20px;
+  }
+}
+/* Right Box */
+
+.SingleListings .rightBox {
+  width: 30%;
+}
+@media (max-width: 1010px) {
+  .SingleListings .rightBox {
+    width: 100%;
+  }
+}
+.SingleListings .rightBox .WorkTime {
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.SingleListings .rightBox .WorkTime h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px 30px 10px 30px;
+  font-size: 20px;
+}
+.SingleListings .rightBox .WorkTime h3 i {
+  margin-right: 10px;
+}
+
+/* Table */
+
+.SingleListings .rightBox .WorkTime ul {
+  padding-bottom: 30px;
+}
+.SingleListings .rightBox .WorkTime ul li {
+  padding: 10px 30px;
+}
+.SingleListings .rightBox .WorkTime ul li:nth-of-type(even) {
+  background-color: #3396ff;
+}
+
+.SingleListings .rightBox .WorkTime ul .float-right {
+  float: right;
+}
+@media (max-width: 400px) {
+  .SingleListings .rightBox .WorkTime h3 {
+    text-align: center;
+  }
+  .SingleListings .rightBox .WorkTime ul li {
+    padding: 20px 10px 20px;
+    text-align: center;
+  }
+  .SingleListings .rightBox .WorkTime ul li span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .SingleListings .rightBox .WorkTime ul .float-right {
+    float: inherit;
+  }
+}

@@ -1,0 +1,59 @@
+.PackageBox {
+  width: 32%;
+  text-align: center;
+  background-color: #fff;
+}
+@media (max-width: 770px) {
+  .PackageBox {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .PackageBox {
+    width: 100%;
+  }
+}
+.PackageBox .head {
+  color: #fff;
+}
+.PackageBox .head .name {
+  font-weight: 700;
+  font-size: 22px;
+}
+.PackageBox .price {
+  font-weight: 400;
+}
+.PackageBox .number {
+  font-size: 22px;
+}
+.PackageBox .head .small-text {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -1px;
+}
+.PackageBox .text-up-small {
+  font-size: 14px;
+  line-height: 22px;
+}
+.PackageBox .text-small {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.PackageBox .li {
+  padding: 12px 20px;
+  border-bottom: 1px solid #eeeded;
+  font-size: 13px;
+  color: #212529;
+}
+
+.PackageBox button {
+  width: 100%;
+  border: none;
+  padding: 6px 12px;
+  font-size: 17px;
+  background-color: #eeeded;
+  color: #343a40;
+  cursor: pointer;
+}

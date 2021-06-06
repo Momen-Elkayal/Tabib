@@ -1,0 +1,140 @@
+.breadcrumb {
+  padding-top: 20px;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.breadcrumb li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.breadcrumb li i {
+  font-weight: bold;
+  margin-left: 6px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.doctors {
+  width: 70%;
+  padding-bottom: 50px;
+}
+.Search {
+  width: 28%;
+}
+
+.DoctBox {
+  width: 30%;
+  margin-bottom: 5%;
+}
+@media (max-width: 1010px) {
+  .doctors {
+    width: 100%;
+  }
+  .Search {
+    width: 100%;
+  }
+  .DoctBox {
+    width: 48%;
+  }
+}
+
+@media (max-width: 770px) {
+  .DoctBox {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.DoctBox img {
+  width: 100%;
+}
+.DoctBox h5 {
+  margin: 10px 0 0;
+}
+.DoctBox h5 a {
+  font-size: 17px;
+  color: #343a40 !important;
+}
+.rate .inline {
+  display: inline-block;
+  margin-right: 10px;
+}
+.inline-ul {
+  margin-bottom: 0;
+}
+.right {
+  text-align: right;
+}
+/*  Search Fillter */
+.SearchFilter {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+.SearchFilter h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.SearchFilter h3 i {
+  margin-right: 12px;
+}
+.SearchFilter form .input {
+  background-color: #fff;
+  width: 100%;
+  padding: 12px 0px;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #fafbfc;
+  border-right: 1px solid #e5e5e5;
+}
+.SearchFilter form .input img {
+  width: 13px;
+  height: 13px;
+  top: 20px;
+  left: 15px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.SearchFilter form .input input {
+  font-size: 13px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  padding: 6px 0px 6px 40px;
+
+  background-color: #fafbfc;
+}
+.SearchFilter form .input input::placeholder {
+  font-size: 13px;
+}
+
+.SearchFilter form .button button {
+  width: 100%;
+  padding: 17px 20px 17px 20px;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/* Categorey */
+.Categorey {
+  color: #fff;
+  opacity: 0.7;
+  width: 48%;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.margin-top {
+  margin-top: 50px;
+}

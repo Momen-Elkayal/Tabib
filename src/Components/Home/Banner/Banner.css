@@ -1,0 +1,138 @@
+.banner {
+  position: relative;
+  width: 100%;
+  padding-top: 100px;
+}
+@media (max-width: 1010px) {
+  .banner {
+    padding-top: 70px;
+  }
+}
+.banner h1 {
+  margin-bottom: 15px;
+  font-size: 44px;
+  line-height: 44px;
+  font-weight: 800;
+}
+.banner h4 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* Style Form  */
+.listing-search form {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.width-65 {
+  width: 65%;
+}
+.listing-search form .input {
+  background-color: #fff;
+  width: 25%;
+  border-right: 1px solid #e5e5e5;
+  padding: 12px 0px;
+  position: relative;
+}
+.listing-search form .keywords {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.listing-search form .input img {
+  width: 13px;
+  height: 13px;
+  top: 20px;
+  left: 15px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.listing-search form .input input,
+.listing-search form .input select {
+  font-size: 13px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  padding: 6px 0px 6px 40px;
+  border-right: 1px solid #e5e5e5;
+}
+.listing-search form .input input::placeholder {
+  font-size: 16px;
+}
+.listing-search form .button {
+  width: 25%;
+  cursor: pointer;
+}
+.listing-search form .button button {
+  width: 100%;
+  padding: 17px 20px 17px 20px;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+@media (max-width: 770px) {
+  .listing-search form .input,
+  .listing-search form .button {
+    width: 100%;
+  }
+  .listing-search form .input,
+  .listing-search form .input select,
+  .listing-search form .input input {
+    border-right: none;
+  }
+  .listing-search form .button button {
+    border-radius: 10px;
+  }
+}
+/* Style fadeUp */
+.categorie {
+  margin-top: 70px;
+}
+.width-55 {
+  width: 55%;
+}
+.categorie .feadup {
+  opacity: 0.7;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.categorie .feadup:hover {
+  opacity: 1;
+}
+.categorie .feadup .img {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 45px;
+  margin: auto;
+}
+@media (max-width: 1010px) {
+  .width-65 {
+    width: 100%;
+  }
+  .categorie {
+    width: 100% !important;
+  }
+  .categorie .feadup {
+    margin-bottom: 30px;
+  }
+  .categorie4 {
+    width: 24% !important;
+  }
+}
+@media (max-width: 770px) {
+  .categorie .feadup {
+    width: 48% !important;
+    margin-bottom: 30px;
+  }
+}

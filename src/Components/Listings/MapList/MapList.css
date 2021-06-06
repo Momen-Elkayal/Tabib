@@ -1,0 +1,38 @@
+.MapList .BoxsesList {
+  padding-top: 25px;
+}
+.MapList .BoxList {
+  margin-bottom: 40px;
+}
+.MapList .BoxList .img {
+  width: 200px;
+  
+}
+.MapList .BoxList .img img {
+  width: 100%;
+}
+.MapList .BoxList .Text {
+  width: calc(100% - 200px);
+  padding: 35px 15px;
+}
+.MapList .BoxList .Text i {
+  margin-right: 7px;
+}
+
+.MapList .BoxList .Text h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.MapList .close-info {
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .MapList .BoxList .Text {
+    width: 100%;
+  }
+  .MapList .BoxList .img {
+    width: 100%;
+  }
+}

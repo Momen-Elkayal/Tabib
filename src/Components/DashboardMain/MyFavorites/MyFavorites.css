@@ -1,0 +1,22 @@
+.FavoritesItem {
+  margin-bottom: 50px;
+}
+.FavoritesItem img {
+  height: 100px;
+}
+.FavoritesItem h2 {
+  width: calc(100% - 130px);
+  font-size: 16px;
+  line-height: 23px;
+}
+.FavoritesItem h2 a {
+  display: block;
+}
+.FavoritesItem h2 .name {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.FavoritesItem h2 a:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 22px;
+}

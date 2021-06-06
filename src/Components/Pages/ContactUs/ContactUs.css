@@ -1,0 +1,52 @@
+.ContactUs {
+  margin-bottom: 100px;
+}
+
+.MapLeft,
+.Boxright,
+.BoxContact {
+  width: 48%;
+}
+@media (max-width: 1010px) {
+  .MapLeft {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  .Boxright {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .BoxContact {
+    width: 100%;
+  }
+}
+.Boxright p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Boxright .BoxContact {
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+.Boxright .BoxContact i {
+  font-size: 55px;
+  color: #9e9e9e;
+}
+
+.Boxright .BoxContact .type {
+  font-size: 13px;
+  margin: 15px 0 8px;
+  color: #212529;
+  font-weight: 300;
+}
+
+.Boxright .BoxContact .textcont {
+  font-size: 16px;
+  margin: 0 0 8px;
+  color: #212529;
+}

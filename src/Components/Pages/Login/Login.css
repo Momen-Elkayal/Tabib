@@ -1,0 +1,115 @@
+.breadcrumb2 {
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.breadcrumb2 ul {
+  opacity: 0.5;
+}
+.breadcrumb2 ul li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.breadcrumb2 ul li i {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.breadcrumb2 h1 {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #212529;
+  font-size: 35px;
+  line-height: 32px;
+}
+
+/* start login */
+
+.loginPage {
+  max-width: 470px;
+  background-color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  font-size: 13px;
+  color: #888da8;
+  font-weight: 300;
+  border-radius: 10px;
+}
+.loginPage form {
+  color: #686868;
+}
+.loginPage form .form-group {
+  width: 100%;
+}
+
+.loginPage form .form-group label,
+.loginPage form .form-group input,
+.loginPage form .form-group select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.loginPage form .form-group input,
+.loginPage form .form-group select {
+  padding: 0.575rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+}
+
+.loginPage form .remember .checkbox {
+  display: inline-block;
+  font-size: 14px;
+}
+.loginPage form .remember .checkbox input {
+  position: relative;
+  top: 1px;
+}
+.loginPage form .remember a {
+  color: #888da8;
+}
+.loginPage form .remember .forget {
+  float: right;
+}
+.loginPage form .loginbtn,
+.loginPage form .loginfac,
+.loginPage form .logintw {
+  display: block;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 8px 10px;
+}
+.loginPage form .loginbtn {
+  background-color: #575757;
+}
+.loginPage form .loginfac {
+  background-color: #2f5b9d;
+}
+.loginPage form .logintw {
+  background-color: #38bff1;
+}
+.loginPage form i {
+  margin-right: 8px;
+}
+.loginPage form .or {
+  margin-top: 25px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #d6d6d6;
+  margin-bottom: 25px;
+}
+
+.loginPage form p {
+  color: #888da8;
+}
+.loginPage form .Link {
+  color: #000;
+}

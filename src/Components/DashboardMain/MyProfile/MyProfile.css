@@ -1,0 +1,82 @@
+.Profile form i {
+  margin-right: 10px;
+  font-weight: 600;
+}
+.Profile form .width48 {
+  width: 48%;
+}
+.Profile form .width100 {
+  width: 100%;
+}
+@media (max-width: 770px) {
+  .Profile form .width48 {
+    width: 100%;
+  }
+}
+.Profile .border-rad20 {
+  border-radius: 20px;
+}
+.Profile .margin-bot20 {
+  margin-bottom: 20px;
+}
+
+.Profile form label {
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.Profile form input,
+.Profile form select,
+.Profile form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.Profile .img {
+  width: 25%;
+  cursor: pointer;
+}
+.Profile .img img {
+  width: 100%;
+}
+.Profile .img a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Profile .forms {
+  width: 70%;
+}
+.Profile .Update {
+  display: block;
+  width: 170px;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+@media (max-width: 550px) {
+  .Profile .img {
+    width: 100%;
+  }
+  .Profile .forms {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .Profile .forms form {
+    width: 100%;
+  }
+}

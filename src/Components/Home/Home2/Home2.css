@@ -1,0 +1,34 @@
+.Cat-List {
+  padding-bottom: 120px;
+  margin-top: 60px;
+}
+
+.Cat-List .Categorie-dad {
+  width: 35%;
+}
+.Cat-List .ListingSearch {
+  width: 60%;
+  position: relative;
+}
+.width-100 {
+  width: 100%;
+}
+.marginBot-35 {
+  margin-bottom: 35px;
+}
+.bottom-0 {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 1010px) {
+  .Cat-List .Categorie-dad {
+    width: 100%;
+  }
+  .Cat-List .ListingSearch {
+    width: 100%;
+  }
+  .bottom-0 {
+    position: relative;
+  }
+}

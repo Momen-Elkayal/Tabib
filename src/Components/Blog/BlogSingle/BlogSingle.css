@@ -1,0 +1,131 @@
+.BlogSingle hr {
+  border-top-color: #abdde5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.BlogSingleRight {
+  width: 67%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1010px) {
+  .BlogSingle .BlogSingleRight,
+  .BlogSingle .boxleft {
+    width: 100%;
+  }
+}
+/* Blog Post Title */
+.BlogPostTitle {
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.BlogSingleRight .BlogPostTitle .meta span {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #212529;
+}
+
+.BlogSingleRight .BlogPostTitle .img img {
+  width: 100%;
+}
+.BlogSingleRight .BlogPostTitle p {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.BlogSingleRight .BlogPostTitle h5 {
+  margin-bottom: 0px;
+}
+.BlogSingleRight .BlogPostTitle ul li {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 0px 9px;
+  font-size: 13px !important;
+  line-height: 28px !important;
+  color: #9b9b9b !important;
+  border: #eaeaea solid 1px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Comment */
+
+.BlogComments {
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.BlogSingleRight .BlogComments .Review-box-marleft {
+  margin-left: 50px;
+}
+
+.BlogSingleRight .BlogComments .star {
+  display: inline-block;
+  margin-right: 30px;
+}
+.BlogSingleRight .BlogComments .star h3 {
+  font-size: 17px !important;
+  font-weight: 400;
+  color: #343a40 !important;
+  margin: 0;
+}
+
+.BlogSingleRight .BlogComments .date {
+  font-size: 11px;
+  display: inline-block;
+}
+
+/* Add Comment  */
+.AddComment {
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.BlogSingleRight .AddComment form .name {
+  width: 49%;
+}
+.BlogSingleRight .AddComment form label {
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.BlogSingleRight .AddComment form input,
+.BlogSingleRight .AddComment form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.BlogSingleRight .AddComment form .email {
+  width: 49%;
+}
+.BlogSingleRight .AddComment form .comment {
+  margin-top: 20px;
+}
+.BlogSingleRight .AddComment form button {
+  margin-top: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (max-width: 1010px) {
+  .BlogSingleRight .AddComment form .name,
+  .BlogSingleRight .AddComment form .email {
+    width: 100%;
+  }
+  .BlogSingleRight .AddComment form .name {
+    margin-bottom: 20px;
+  }
+}

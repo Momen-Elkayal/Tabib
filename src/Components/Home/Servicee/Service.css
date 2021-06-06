@@ -1,0 +1,46 @@
+.Service {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Service .box {
+  width: 22%;
+  text-align: center;
+  opacity: 0.7;
+}
+@media (max-width: 1010px) {
+  .Service .box{
+    width: 48%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 770px) {
+  .Service .box{
+    width: 100%;
+    
+  }
+}
+.Service .box .icon img {
+  height: 45px;
+}
+.Service .box:nth-of-type(1) .icon img {
+  width: 29px;
+}
+.Service .box:nth-of-type(2) .icon img {
+  width: 33px;
+}
+.Service .box:nth-of-type(3) .icon img {
+  width: 37px;
+}
+.Service .box:nth-of-type(4) .icon img {
+  width: 45px;
+}
+
+.Service .box h3 {
+  font-size: 20px;
+}
+
+.Service .box p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}

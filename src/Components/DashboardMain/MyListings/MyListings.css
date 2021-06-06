@@ -1,0 +1,68 @@
+.BoxClinic {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.BoxClinic .img {
+  width: 200px;
+}
+.BoxClinic .img img {
+  width: 100%;
+  height: 200px;
+}
+
+.BoxClinic .text {
+  width: calc(100% - 200px);
+  padding: 45px 25px;
+}
+.BoxClinic .text p {
+  font-size: 13px;
+}
+
+.BoxClinic .text h2 {
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.BoxClinic .text h2 a {
+  display: inline-block;
+}
+.BoxClinic .text h2 a:first-of-type {
+  margin-right: 15px;
+}
+.BoxClinic .text h2 .icon {
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.BoxClinic .text .close-info .open,
+.BoxClinic .text .close-info .save,
+.BoxClinic .text .close-info .hospital {
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 13px;
+}
+
+.BoxClinic .text .close-info .open i,
+.BoxClinic .text .close-info .save i,
+.BoxClinic .text .close-info .hospital i {
+  margin-right: 5px;
+}
+
+@media (max-width: 640px) {
+  .BoxClinic {
+    padding-top: 20px;
+  }
+  .BoxClinic .img {
+    margin: auto;
+  }
+  .BoxClinic .text {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+}
+

@@ -1,0 +1,272 @@
+.NavBar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 100000000000;
+  background-color: #fff;
+}
+@media (max-width: 1010px) {
+  .NavBar {
+    position: relative;
+  }
+}
+.NavBar .Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Link Dashbord */
+
+.NavBar .Nav .links-dash img {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.NavBar .Nav .links-dash .anchor-img {
+  opacity: 1 !important;
+}
+.NavBar .Nav .links-dash .anchor-img img {
+  position: relative;
+  top: 11px;
+}
+.NavBar .Nav .links-dash .anchor-img span {
+  opacity: 0.7 !important;
+}
+/* logo Style */
+.NavBar .Nav .logo {
+  width: 120px;
+  padding: 20px 0 20px 0;
+  margin-bottom: 0 !important;
+}
+.NavBar .Nav .logo img {
+  width: 120px;
+}
+/* links Style */
+
+.NavBar .Nav .links {
+  width: 60%;
+}
+.NavBar .links-dash {
+  width: calc(100% - 300px) !important;
+}
+.NavBar .links-dash .ul-links li > a {
+  font-size: 13px !important;
+}
+.NavBar .Nav .links .ul-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: end;
+}
+
+.NavBar .Nav .links .ul-links > li {
+  display: inline-block;
+  margin-right: 25px;
+  position: relative;
+}
+@media (max-width: 1155px) {
+  .login-dash {
+    display: none;
+  }
+  .NavBar .links-dash {
+    width: calc(100% - 140px) !important;
+  }
+}
+.NavBar .Nav .links .ul-links > li > .anchor {
+  color: #000;
+  z-index: 3;
+  opacity: 0.7;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px 0px 25px 0px;
+}
+
+.NavBar .Nav .links .ul-links > li > .anchor i {
+  margin-left: 7px;
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 17px;
+}
+.NavBar .Nav .links-dash .ul-links > li > .anchor i {
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 13px;
+}
+.NavBar .Nav .links-dash .ul-links > li > .anchor .signOut {
+  margin-right: 7px;
+}
+.NavBar .Nav .links-dash .ul-links > li > .anchor {
+  padding: 7px 0px 25px 0px;
+}
+
+/* Sub Menu */
+
+.NavBar .Nav .links .ul-links li .sub-menu {
+  position: absolute;
+  text-align: left;
+  top: 63px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 200px;
+  visibility: hidden;
+  border-radius: 15px;
+}
+
+.NavBar .Nav .links .ul-links li .sub-menu li {
+  display: block;
+}
+
+.NavBar .Nav .links .ul-links li .sub-menu li a {
+  text-decoration: none;
+  color: #000 !important;
+  opacity: 0.7;
+  padding: 15px;
+  display: block;
+  transition: 0.3s ease-in;
+}
+
+.NavBar .Nav .links .ul-links li .sub-menu li a:hover {
+  padding-left: 22px;
+  opacity: 1;
+}
+
+.NavBar .Nav .links .ul-links > li:hover .sub-menu {
+  visibility: visible;
+}
+
+/* Nav Bar menu */
+
+.Navmenu {
+  text-align: right;
+  position: relative;
+  padding-top: 10px;
+  display: none;
+}
+
+.Navmenu .iconMenu {
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+}
+.NavLinks {
+  width: 100%;
+  display: none;
+}
+
+.NavLinks ul {
+  display: block;
+  padding-left: 10px;
+}
+.NavLinks ul > li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  opacity: 0.7;
+  font-weight: 500;
+  cursor: pointer;
+}
+.NavLinks ul > li > a {
+  color: #000;
+}
+.NavLinks ul > li ul {
+  display: none;
+  padding-top: 10px;
+}
+.NavLinks ul > li ul li {
+  padding-left: 10px;
+  border-bottom: none;
+  transition: ease-in-out 0.3s;
+}
+.NavLinks ul > li ul li:hover {
+  opacity: 1;
+  padding-left: 15px;
+}
+.NavLinks ul > li i {
+  margin-left: 6px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+@media (max-width: 1090px) {
+  .NavBar .Nav .links .ul-links > li > .anchor {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .NavBar .Nav .links {
+    width: calc(100% - 140px);
+  }
+  .NavBar .Nav .links .ul-links {
+    display: none;
+  }
+  .Navmenu {
+    display: block;
+    width: 100%;
+  }
+  .NavBar .Nav .logo {
+    margin-bottom: 20px;
+  }
+}
+
+/* login Style */
+
+.NavBar .Nav .login {
+  width: 25%;
+  padding: 23px 0 20px 15px;
+  text-align: end;
+  font-size: 15px;
+}
+.login-dash {
+  width: 170px !important;
+}
+.NavBar .Nav .login .log {
+  text-decoration: none;
+  color: #000000;
+}
+
+.NavBar .Nav .login .log i {
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.NavBar .Nav .login .add-list {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 30px;
+  padding: 4px 20px;
+  border-radius: 30px;
+}
+
+.NavBar .Nav .login .add-list i {
+  margin-right: 7px;
+}
+
+@media (max-width: 1010px) {
+  .NavBar .Nav .login {
+    width: 100%;
+    display: block;
+    clear: both;
+    padding: 10px 0;
+  }
+  .NavBar .Nav .login .log {
+    float: left;
+  }
+  .NavBar .Nav .login .add-list {
+    float: right;
+  }
+  .login-dash {
+    display: none !important;
+  }
+}

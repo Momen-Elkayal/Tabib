@@ -1,0 +1,48 @@
+.Blog4Box .boxs {
+  margin-bottom: 30px;
+}
+.Blog4Box .boxs .img img {
+  max-width: 100%;
+}
+
+.Blog4Box .info {
+  background-color: #fff;
+}
+.Blog4Box .info h3 {
+  font-size: 16px;
+  line-height: 23px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.Blog4Box .info h3:hover {
+  opacity: 1;
+}
+
+.Blog4Box .info .user i {
+  margin-right: 15px;
+}
+
+.Blog4Box .info .clock i {
+  font-size: 15px;
+  margin-right: 13px;
+}
+.Blog4Box .boxs .img {
+  overflow: hidden;
+}
+.Blog4Box .boxs .img img {
+  width: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.Blog4Box .boxs:hover .img img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.Blog4Box .boxs:hover .img {
+  background-color: #fff;
+  opacity: 0.4;
+}

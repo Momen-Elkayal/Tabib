@@ -1,0 +1,110 @@
+.breadcrumb3 {
+  padding-top: 20px;
+  margin-bottom: 60px !important;
+}
+.breadcrumb3 h1 {
+  font-size: 29px !important;
+}
+.BlogGrid .borderrad10 {
+  border-radius: 10px;
+}
+/* Box Right */
+
+.BlogGrid .boxright {
+  width: 67%;
+  margin-bottom: 50px;
+}
+@media (max-width: 1010px) {
+  .BlogGrid .boxright {
+    width: 100%;
+  }
+}
+.BlogGrid .boxright .boxs {
+  width: 48%;
+  margin-bottom: 4%;
+  background-color: #fff;
+}
+@media (max-width: 770px) {
+  .BlogGrid .boxright .boxs {
+    width: 100%;
+  }
+}
+.BlogGrid .boxright .boxs .img img {
+  width: 100%;
+  cursor: pointer;
+}
+.BlogGrid .boxright .boxs .info p {
+  font-size: 13px;
+}
+.BlogGrid .boxright .boxs .info h3 {
+  font-size: 17px;
+  opacity: 0.8;
+}
+.BlogGrid .boxright .boxs .info h3:hover {
+  opacity: 1;
+}
+.BlogGrid .boxright .boxs .user {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Box Left */
+
+.boxleft {
+  width: 30%;
+}
+@media (max-width: 1010px) {
+  .BlogGrid .boxleft {
+    width: 100%;
+  }
+}
+
+.boxleft > div {
+  margin-bottom: 30px;
+}
+
+.boxleft .search input {
+  width: 70%;
+  padding: 6px 12px;
+  color: #495057;
+  border: 1px solid #ced4da;
+}
+
+.boxleft .search button {
+  width: 30%;
+  color: #fff;
+  border: 1px solid #ced4da;
+  transition: ease-in-out 0.3s;
+}
+.boxleft .search button:hover {
+  background-color: #868e96;
+}
+.boxleft .folder ul > div {
+  margin-bottom: 10px;
+}
+.boxleft .folder ul i {
+  display: inline-block;
+  width: 20px;
+  color: #0864b2;
+}
+.boxleft .folder ul li {
+  border-bottom: 1px solid #ced4da;
+  width: calc(100% - 40px);
+  display: inline-block;
+  margin-left: 4px;
+  padding: 5px 0;
+  color: #424242;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.boxleft .instagram .img {
+  width: 46%;
+  margin-bottom: 8%;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.boxleft .instagram .img img {
+  width: 100%;
+}

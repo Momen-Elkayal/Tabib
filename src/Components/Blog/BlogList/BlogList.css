@@ -1,0 +1,49 @@
+.ListBlog .ListRight {
+  width: 67%;
+  margin-bottom: 50px;
+}
+@media (max-width: 1010px) {
+  .ListBlog .ListRight,
+  .ListBlog .boxleft {
+    width: 100%;
+  }
+}
+.ListBlog .ListRight .BlogBoxList {
+  margin-bottom: 30px;
+  border: 1px solid #eeeded;
+  background-color: #fff;
+}
+.ListBlog .ListRight .BlogBoxList .img {
+  width: 300px;
+  height: 100%;
+}
+.ListBlog .ListRight .BlogBoxList .img img {
+  width: 100%;
+}
+.ListBlog .ListRight .BlogBoxList .info {
+  width: calc(100% - 300px);
+}
+
+@media (max-width: 1010px) {
+  .ListBlog .ListRight .BlogBoxList .img {
+    width: 100%;
+  }
+  .ListBlog .ListRight .BlogBoxList .info {
+    width: 100%;
+  }
+}
+.ListBlog .ListRight .BlogBoxList .info h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  text-transform: capitalize !important;
+  color: #212529;
+  cursor: pointer;
+}
+
+.ListBlog .ListRight .BlogBoxList .info .marright20 {
+  margin-right: 20px;
+  font-size: 11px;
+}

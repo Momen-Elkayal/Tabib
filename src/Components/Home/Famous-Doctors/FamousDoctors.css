@@ -1,0 +1,42 @@
+.FamousDoctors {
+  width: 100%;
+}
+.FamousDoctors .Doctor {
+  width: 24%;
+  background-color: #fff;
+}
+.FamousDoctors .Doctor .img {
+  position: relative;
+}
+.FamousDoctors .Doctor .img img {
+  width: 100%;
+  cursor: pointer;
+}
+.FamousDoctors .Doctor .info h5{
+  margin: 10px 0 0;
+
+}
+.FamousDoctors .Doctor .info a {
+  font-size: 17px;
+  color: #343a40 !important;
+}
+.FamousDoctors .Doctor .rating li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.FamousDoctors .Doctor .rating small {
+  margin-top: 15px;
+  font-weight: bold;
+}
+@media (max-width: 1010px) {
+  .FamousDoctors .Doctor {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 770px) {
+  .FamousDoctors .Doctor {
+    width: 100%;
+  }
+}
